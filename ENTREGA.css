@@ -1,0 +1,267 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 400px;
+    background-color: #bc4e9c;
+    background: #2193b0;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(191, 78%, 68%, 0.658), hsla(192, 68%, 41%, 0.685)), url(R.png);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(191, 78%, 68%, 0.658), hsla(192, 68%, 41%, 0.685)), url(R.png);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-position: left;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav {
+    padding: 20px 20px;
+}
+
+nav a {
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    background-color: #2193b0;
+    border-bottom: #2e64a1
+}
+
+.ola {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.texto{
+    text-align: center;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.titulo {
+    text-align: center;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    color: #2193b0;
+}
+
+.comunidad .titulo {
+    text-align: center;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.comunidad {
+    background-color: #f2f2f2;
+}
+
+.comunidad h5 {
+    text-align: center;
+    font-size: 20px;
+    color: #2e64a1;
+}
+
+.galeriacurso {
+    display: inline-flex;
+    justify-content: space-evenly;
+    margin-left: 70px;
+
+}
+
+.curso-ingles img {
+    position: relative;
+    left: 10px;
+}
+
+.curso-informatica img,
+.curso-css img {
+    position: relative;
+    left: 10px;
+}
+
+.contenedor {
+    margin-right: 40px;
+}
+
+.curso-informatica img,
+.curso.python img,
+.curso-css img,
+.curso-ingles img {
+    width: 197px;
+    height: 196px;
+    object-fit: cover;
+    display: block;
+    justify-content: center;
+}
+
+.curso-informatica,
+.curso-ingles,
+.curso-python,
+.curso-css {
+    font-style: italic;
+    color: #2e64a1;
+}
+
+.curso-informatica,
+.curso-ingles,
+.curso-python,
+.curso-css {
+    width: 18%;
+    border: 1px solid #ddd;
+    text-align: center;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.galeria-port {
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.imagen-port {
+    width: 24%;
+    flex-direction: row;
+}
+.galeria-port p{
+    color:#2193b0;
+    padding-left: 50px;
+}
+.zoom{
+    position: relative;
+    left: 30px;
+}
+.wsp{
+    position: relative;
+    left: 10px;
+}
+.telegram{
+    
+        position: relative;
+        left: 20px;
+}
+.face{
+    position: relative;
+    left: 10px;
+}
+
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 30%;
+    border: 1px solid #ddd;
+    text-align: center;
+    margin-left: 12px;
+}
+
+.card img {
+    border-radius: 50%;
+    width: 40%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+
+
+}
+
+.card h5,
+.card h4 {
+    color: #2e64a1;
+    margin: 0;
+    font-weight: normal;
+    padding: 16px 0;
+}
+
+.card h4 {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.card h5 {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.card p {
+    font-size: 12px;
+    color: #565656;
+}
+.servicios{
+    background-color: #f2f2f2;
+    padding-left: 15px;
+    margin-bottom: 0;
+}
+.servicio-cont{
+    display: block;
+    
+}
+.contenedorservicios h4{
+    text-align: center;
+    font-size:20px;
+    color: #2e64a1;
+}
+.servicio-ind h3{
+    text-align: center;
+    color: #2193b0;
+}
+.servicio-ind p{
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    color: #2e64a1;
+}
+footer{
+    background-color: #414141;
+   padding: 60px 0 30px 0;
+    width: 100%;
+    height: 80px;
+margin-top: 0;
+
+}
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: auto;
+
+    
+    
+}
+.content-foo{
+    text-align: center;
+}
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #2e64a1;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+}
+.content-foo p{
+    color: #ccc;
+}
+.galeria-port{
+    display: flex;
+    justify-content: center;
+    padding-left: 120px;
+   
+
+}
+.imagen-port img{
+    width: 197px;
+    height: 196px;
+    object-fit: cover;
+}
